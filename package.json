@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "sum.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/joethyr/testing-practice/issues"
   },
-  "homepage": "https://github.com/joethyr/testing-practice#readme"
+  "homepage": "https://github.com/joethyr/testing-practice#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
 }
